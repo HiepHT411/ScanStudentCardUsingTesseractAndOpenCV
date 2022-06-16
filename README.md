@@ -7,4 +7,4 @@ HUST ET1-03 K63 Hoàng Tuấn Hiệp-20182504
 ### :hammer_and_wrench: Languages and Tools :
 - java 10 project built with maven
 - openCV 4.5.4
-- tesseract 5.2.0
+- tesseract 3.4.8
