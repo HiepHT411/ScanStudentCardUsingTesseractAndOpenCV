@@ -1,0 +1,41 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ScanImageByTesseract</groupId>
+  <artifactId>ScanImageByTesseract</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>ScanImageByTesseract</name>
+  <description>Extract Text from Image using Tesseract OCR in Java</description>
+  
+  <dependencies>
+  	<!-- https://mvnrepository.com/artifact/net.sourceforge.tess4j/tess4j -->
+		<dependency>
+    		<groupId>net.sourceforge.tess4j</groupId>
+    		<artifactId>tess4j</artifactId>
+    		<version>5.2.0</version>
+		</dependency>
+  		<!-- dependency>
+    		<groupId>org.openpnp</groupId>
+    		<artifactId>opencv</artifactId>
+    		<version>4.5.1-2</version>
+		</dependency-->
+
+		<!-- dependency>
+			<groupId>nu.pattern</groupId>
+			<artifactId>opencv</artifactId>
+			<version>2.4.9-7</version>
+		</dependency-->
+  	
+  </dependencies>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.7.0</version>
+        <configuration>
+          <release>10</release>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
