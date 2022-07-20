@@ -1,0 +1,1 @@
+![Alt text](https://github.com/HiepHT411/ScanStudentCardUsingTesseractAndOpenCV/tree/exam-preparation/img.jpg?raw=true "De bai 11 vi du")
