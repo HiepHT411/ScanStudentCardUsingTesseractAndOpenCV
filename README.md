@@ -1,1 +1,1 @@
-![Alt text](https://github.com/HiepHT411/ScanStudentCardUsingTesseractAndOpenCV/tree/exam-preparation/debai.jpg?raw=true)
+![De bai](debai.jpg?raw=true)
